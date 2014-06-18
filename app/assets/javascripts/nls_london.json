@@ -1,0 +1,28 @@
+{
+    "tilejson": "2.0.0",
+    
+    "autoscale": true,
+    
+    "name": " Maps of the London by NLS",
+
+    "description": "Maps of London from the National Library of Scotland ",
+
+    "version": "1.0.0",
+
+    "attribution": "From <a href='http://maps.nls.uk/'>National Library of Scotland</a>",
+
+
+    "scheme": "xyz",
+
+    "tiles": [
+        "http://geo.nls.uk/mapdata3/os/london/{z}/{x}/{y}.png"
+    ],
+
+    "minzoom": 1,
+
+    "maxzoom": 21,
+
+    "bounds": [-180, -85, 180, 85],
+
+    "center": [ -0.10437, 51.511, 18 ]
+}

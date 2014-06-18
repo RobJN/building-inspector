@@ -55,7 +55,7 @@ class @Inspector
     @initMap()
 
   initMap: () ->
-    @map = L.mapbox.map('map', 'https://s3.amazonaws.com/maptiles.nypl.org/859/859spec.json',
+    @map = L.mapbox.map('map', '/assets/nls_london.json',
       zoomControl: false
       scrollWheelZoom: @options.scrollWheelZoom
       touchZoom: @options.touchZoom
@@ -66,9 +66,7 @@ class @Inspector
       dragging: @options.draggableMap
     )
 
-    @overlay2 = L.mapbox.tileLayer('https://s3.amazonaws.com/maptiles.nypl.org/860/860spec.json',
-      zIndex: 3
-    ).addTo(@map)
+
 
     L.control.zoom(
       position: 'topright'

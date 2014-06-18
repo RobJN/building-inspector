@@ -1,14 +1,12 @@
 class Sheet
 	constructor: () ->
-		@map = L.mapbox.map('map', 'https://s3.amazonaws.com/maptiles.nypl.org/859/859spec.json',
+		@map = L.mapbox.map('map', '/assets/nls_london.json',
 			animate: true
 			minZoom: 13
 			maxZoom: 21
 		)
 
-		@overlay2 = L.mapbox.tileLayer('https://s3.amazonaws.com/maptiles.nypl.org/860/860spec.json',
-			zIndex: 3
-		).addTo(@map)
+
 
 		s = @
 

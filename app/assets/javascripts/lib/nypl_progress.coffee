@@ -44,13 +44,10 @@ class @Progress
 
     t = @
 
-    @overlay = L.mapbox.tileLayer('https://s3.amazonaws.com/maptiles.nypl.org/859/859spec.json',
+    @overlay = L.mapbox.tileLayer('/assets/nls_london.json',
       zIndex: 2
     ).addTo(@map)
 
-    @overlay2 = L.mapbox.tileLayer('https://s3.amazonaws.com/maptiles.nypl.org/860/860spec.json',
-      zIndex: 3
-    ).addTo(@map)
 
     @zoomControl = L.control.zoom(
       position: 'topright'
