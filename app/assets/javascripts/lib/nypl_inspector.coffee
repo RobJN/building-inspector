@@ -207,7 +207,7 @@ class @Inspector
   showInspectingMessage: () ->
     return if @layer_id == @loadedData.map.layer_id or @options.tutorialOn
     @layer_id = @loadedData.map.layer_id
-    msg = "Now inspecting:<br/><strong>Brooklyn, 1855</strong>"
+    msg = "Now inspecting:<br/><strong>London,1890's</strong>"
     msg = "Now inspecting:<br/><strong>Manhattan, 1857-62</strong>" if @layer_id == 859 # hack // eventually add to sheet table
     @showMessage(msg, true)
 
