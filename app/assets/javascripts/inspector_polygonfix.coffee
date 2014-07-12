@@ -9,7 +9,7 @@ class Polygonfix extends Inspector
       constrainMapToPolygon: false
       tutorialData: {}
       jsdataID: '#polygonfixjs'
-      tweetString: "_score_ footprints fixed! Data mining old maps with Building Inspector from @NYPLMaps @nypl_labs"
+      tweetString: "_score_ footprints fixed! Data mining old maps with Rebuilding from #OpenHistoricalMap"
       task: 'polygonfix'
     super(options)
     @flags = []
