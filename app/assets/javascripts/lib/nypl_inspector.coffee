@@ -25,7 +25,7 @@ class @Inspector
       jsdataID: ''
       scoreID: "#score .total"
       tweetID: "#tweet"
-      tweetString: "_score_ buildings checked! Data mining old maps with the Building Inspector from @NYPLMaps @nypl_labs"
+      tweetString: "_score_ buildings checked! Data mining old maps with Rebuilding from #OpenHistoricalMap"
       polygonStyle:
         color: '#b00'
         weight: 5
