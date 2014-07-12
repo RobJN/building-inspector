@@ -5,7 +5,7 @@ class GeometryProgress extends Progress
       jsdataID: '#progressjs'
       highlightClass: ".polygon-highlight"
       task: 'geometry'
-      tweetString: "_score_ footprints checked! Data mining old maps with Building Inspector from @NYPLMaps @nypl_labs"
+      tweetString: "_score_ footprints checked! Data mining old maps with Rebuilding from #OpenHistoricalMap"
       mode: $('#progressjs').data("mode")
     super(options)
 
