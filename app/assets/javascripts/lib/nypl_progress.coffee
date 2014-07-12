@@ -20,7 +20,7 @@ class @Progress
       jsdataID: ''
       scoreID: "#score .total"
       tweetID: "#tweet"
-      tweetString: "_score_ buildings checked! Data mining old maps with the Building Inspector from @NYPLMaps @nypl_labs"
+      tweetString: "_score_ buildings checked! Data mining old maps with Rebuilding from #OpenHistoricalMap"
       polygonStyle:
         color: '#609846'
         opacity: 0
