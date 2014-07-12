@@ -6,7 +6,7 @@ class Color extends Inspector
       tutorialType:"video"
       tutorialURL: "//player.vimeo.com/video/92555926?autoplay=1&title=0&amp;byline=0&amp;portrait=0"
       jsdataID: '#colorjs'
-      tweetString: "_score_ building materials classified! Data mining old maps with Building Inspector from @NYPLMaps @nypl_labs"
+      tweetString: "_score_ building materials classified! Data mining old maps with Rebuilding from #OpenHistoricalMap"
       task: 'color'
     super(options)
     @isMultiple = false
